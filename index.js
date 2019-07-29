@@ -61,6 +61,3 @@ Number.prototype.pad = function(x,y) {
 Number.prototype.toRadian = function() {
     return this * Math.PI/180
 }
-let n = 360
-
-console.log(n.toRadian())

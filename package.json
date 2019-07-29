@@ -1,0 +1,22 @@
+{
+  "name": "math_lib",
+  "version": "1.0.0",
+  "description": "A math library for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlsmith4/javascriptMathLib.git"
+  },
+  "author": "Ryan Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanlsmith4/javascriptMathLib/issues"
+  },
+  "homepage": "https://github.com/ryanlsmith4/javascriptMathLib#readme",
+  "dependencies": {
+    "documentation": "^12.0.3"
+  }
+}
