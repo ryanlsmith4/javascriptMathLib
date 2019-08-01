@@ -4,7 +4,7 @@
   "description": "A math library for node",
   "main": "index.js",
   "scripts": {
-    "test": "jest.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "documentation": "^12.0.3"
   },
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
   }
 }
