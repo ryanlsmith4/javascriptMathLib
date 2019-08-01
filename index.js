@@ -133,8 +133,8 @@ Number.prototype.taxWith = function(tax) {
 /**
  * Function that calculates the interest on a number given the years and rate
  * @function
- * @param {Number} rate - Interest rate
- * @param {Number} years - Number of years to calculate the interest
+ * @param { Number } rate - Interest rate
+ * @param { Number } years - Number of years to calculate the interest
  * @returns { Number } with the calculated interest
  */
 
@@ -179,6 +179,14 @@ Number.prototype.intToHex = function() {
     return `0x${this.toString(16)}`;
 };
 
-let n = 2*Math.PI;
+/**
+ * Function that returns a random int for 0 to n -1
+ * @function 
+ * @returns { Number } Returns random in between 0 and n -1
+ */
+Number.prototype.random = function(n) {
+    return Math.floor(Math.random() * n);
+};
+let p = 23;
  
-console.log(n.toDegree());
+console.log(p.random(30));
