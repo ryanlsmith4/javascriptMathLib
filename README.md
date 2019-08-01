@@ -6,6 +6,8 @@
 
 [![Build Status](https://travis-ci.com/ryanlsmith4/javascriptMathLib.svg?branch=master)](https://travis-ci.com/ryanlsmith4/javascriptMathLib)
 
+[![Coverage Status](https://coveralls.io/repos/github/ryanlsmith4/javascriptMathLib/badge.svg?branch=master)](https://coveralls.io/github/ryanlsmith4/javascriptMathLib?branch=master)
+
 #### Table of Contents
 
 -   [goldenRatio](#goldenratio)
