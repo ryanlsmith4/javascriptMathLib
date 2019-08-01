@@ -179,6 +179,6 @@ Number.prototype.intToHex = function() {
     return `0x${this.toString(16)}`;
 };
 
-let n = 150;
+let n = 2*Math.PI;
  
-console.log(n.intToHex());
+console.log(n.toDegree());
