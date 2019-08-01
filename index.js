@@ -164,7 +164,7 @@ Number.prototype.mortgage = function(numberOfPayments, interestRate) {
     if (numberOfPayments <= 0) {
         return ' can\'t be 0 or less';
     }
-    else{
+    else {
         const interestRate = interestRate / 100;
         return this + this * Math.pow(interestRate, numberOfPayments);
     }
