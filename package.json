@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ryanlsmith4/javascriptMathLib#readme",
   "dependencies": {
-    "documentation": "^12.0.3"
+    "documentation": "^12.3.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.5",
